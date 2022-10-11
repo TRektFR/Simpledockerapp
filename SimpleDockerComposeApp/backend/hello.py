@@ -4,7 +4,7 @@ import mysql.connector
 
 
 class DBManager:
-    def __init__(self, database='example', host="db", user="root"):
+    def __init__(self, database="example", host="db", user="root"):
         self.connection = mysql.connector.connect(
             user="root", 
             password="mysql2022",
